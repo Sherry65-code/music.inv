@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.header{
+    background-color: rgba(15, 15, 15, 0.959);
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 5px;
+padding-inline-start: 40px;
+z-index: 10;
+}
+*{
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background-image: url('./images/wal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#main{
+    overflow-y: scroll;
+    left: 0;
+    right: 0;
+    top: 00;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    padding-block: 40px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    text-align: center;
+}
+::-webkit-scrollbar{
+background-color: rgba(177, 219, 255, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(22, 22, 22);
+    border-radius: 18px;
+}
+::selection{
+    background-color: rgba(34, 34, 34, 0.801);
+}
+#menu{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+#menubar{
+    right: 60%;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(15, 15, 15, 0.945);
+position: absolute;
+z-index: 1;
+visibility: hidden;
+}
+.mb{
+width: 100%;
+border: none;
+padding: 10px;
+background-color: rgba(0, 0, 0, 0);   
+color: aliceblue;
+transition: 0.2s all ease-in-out;
+text-align: left;
+padding-inline-start: 10px;
+}
+.mb:hover{
+    transition-duration: 0.2s;
+    background-color: rgba(7, 7, 7, 0.938);
+}
+video{
+border: none;
+border-radius: 8px;
+width: 90%;
+}
+.video{
+    background-color: rgba(14, 14, 14, 0.925);
+    border-radius: 4px;
+    width: 99%;
+    padding: 10px;
+    text-align: left;
+}
+.title{
+float: right;
+width: 9%;
+height: 400px;
+padding-block-start: 50px;
+font-size: 30px;
+color: aliceblue;
+overflow-y: auto;
+overflow-x: hidden;
+}
